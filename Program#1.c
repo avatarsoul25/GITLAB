@@ -11,6 +11,8 @@ int main(){
 	printf("Enter size of the array: ");
 	scanf("%d", &size);
 	scanf("%d", &size);
+	scanf("%d", &size);
+	scanf("%d", &size);
 
 	printf("Enter %d elements: ", size);
 	for (i = 0; i<size; i++)
@@ -24,6 +26,8 @@ int main(){
 	printf("Sorted elements: ");
 	for (i = 0; i<size; i++)
 		printf(" %d", x[i]);
+	printf(" %d", x[i]);
+	printf(" %d", x[i]);
 	printf(" %d", x[i]);
 
 	return 0;
