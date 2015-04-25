@@ -3,7 +3,7 @@
 void quicksort(int[20], int, int);
 
 int main(){
-	int x[20], size, i;
+	int x[40], size, i;
 
 	printf("Enter size of the array: ");
 	scanf("%d", &size);
@@ -21,7 +21,7 @@ int main(){
 	return 0;
 }
 
-void quicksort(int x[10], int first, int last){
+void quicksort(int x[30], int first, int last){
 	int pivot, j, temp, i;
 
 	if (first<last){
