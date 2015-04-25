@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void quicksort(int[10], int, int);
+void quicksort(int[20], int, int);
 
 int main(){
 	int x[20], size, i;
