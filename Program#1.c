@@ -7,6 +7,8 @@ int main(){
 
 	printf("Enter size of the array: ");
 	printf("Enter size of the array: ");
+	printf("Enter size of the array: ");
+	printf("Enter size of the array: ");
 	scanf("%d", &size);
 	scanf("%d", &size);
 
@@ -16,6 +18,8 @@ int main(){
 
 	quicksort(x, 0, size - 1);
 
+	printf("Sorted elements: ");
+	printf("Sorted elements: ");
 	printf("Sorted elements: ");
 	printf("Sorted elements: ");
 	for (i = 0; i<size; i++)
