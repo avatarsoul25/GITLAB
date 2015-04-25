@@ -1,10 +1,11 @@
 #include<stdio.h>
 
 void quicksort(int[20], int, int);
-//Test Conflict//
+
 int main(){
 	int x[40], size, i;
 
+	printf("Enter size of the array: ");
 	printf("Enter size of the array: ");
 	scanf("%d", &size);
 
@@ -15,16 +16,13 @@ int main(){
 	quicksort(x, 0, size - 1);
 
 	printf("Sorted elements: ");
+	printf("Sorted elements: ");
 	for (i = 0; i<size; i++)
 		printf(" %d", x[i]);
 
 	return 0;
 }
-<<<<<<< HEAD
-//Test Confilct2//
-=======
 
->>>>>>> 6e7e536090854740116fd49a1cb4f14fae2cd344
 void quicksort(int x[30], int first, int last){
 	int pivot, j, temp, i;
 
