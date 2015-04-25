@@ -20,7 +20,11 @@ int main(){
 
 	return 0;
 }
+<<<<<<< HEAD
 //Test Confilct2//
+=======
+
+>>>>>>> 6e7e536090854740116fd49a1cb4f14fae2cd344
 void quicksort(int x[30], int first, int last){
 	int pivot, j, temp, i;
 
